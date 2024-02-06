@@ -1,0 +1,188 @@
+html {
+  font-family: Helvetica;
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+}
+
+/* ============================================================================ */
+
+.button0 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  left: -15px;
+}
+
+/* ============================================================================ */
+
+.button1 {
+  background-color: #B22222;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  left: 15px;
+}
+
+/* ============================================================================ */
+
+.button2 {
+  background-color: #B22222;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  left: 30px;
+}
+
+/* ============================================================================ */
+
+.buttonSave0 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  top: -235px;
+  left: 600px;
+}
+
+/* ============================================================================ */
+
+.buttonSave1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  top: -235px;
+  left: 600px;
+}
+
+/* ============================================================================ */
+
+.table1 {
+  width: 50%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+.table1 th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.table1 td:nth-child(1) {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.table1 td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+
+/* ============================================================================ */
+
+.table2 {
+  width: 60%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  position: relative;
+  table-layout: fixed;
+}
+.table2 th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.table2 td:nth-child(1) {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.table2 td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+
+/* ============================================================================ */
+
+.editNum {
+  width: 4em;
+  -moz-appearance: textfield;
+  text-align: center;
+}
+.editNum::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* ============================================================================ */
+
+.Results {
+  width: 4em;
+  -moz-appearance: textfield;
+  text-align: center;
+}
+.Results::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* ============================================================================ */
+
+.p1 {
+  font-weight: bold;
+}
+
+/* ============================================================================ */
+
+.hr-circle {
+  width: 80%;
+  align: center;
+  margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 5px dotted #ddd;
+}
+
+/* ============================================================================ */
+
+.inner
+{
+    display: inline-block;
+    padding: 5px;
+}
