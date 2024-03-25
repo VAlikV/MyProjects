@@ -89,6 +89,23 @@ html {
 
 /* ============================================================================ */
 
+.buttonSetZero {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  top: -235px;
+  left: 600px;
+}
+
+/* ============================================================================ */
+
 .table1 {
   width: 50%;
   margin-bottom: 20px;

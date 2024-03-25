@@ -1,6 +1,6 @@
 void HTTP_init(void) {
   HTTP.on("/restart", handle_Restart); // Перезагрузка модуля по запросу вида http://192.168.0.101/restart?device=ok
-  HTTP.on("/Led", handle_sDiode); // Перезагрузка модуля по запросу вида http://192.168.0.101/restart?device=ok
+  HTTP.on("/Settings", handle_settings);
   HTTP.on("/configs.json", handle_ConfigJSON); // формирование configs.json страницы для передачи данных в web интерфейс
   HTTP.on("/Zero", handle_setZero);
   HTTP.on("/Sens", handle_setSens);
@@ -17,7 +17,7 @@ void handle_Restart() {
   HTTP.send(200, "text/plain", "OK");
 }
 
-void handle_sDiode(){
+void handle_settings(){
   String st = HTTP.arg("status");
   if (st == "1") {
     digitalWrite(LED_BUILTIN, HIGH);
@@ -70,6 +70,9 @@ void handle_ConfigJSON() {
 }
 
 void handle_Refresh() {
+  on_off = true;
+  selected_chanel = 0;
+  //calculate();
   String json = "{";  // Формировать строку для отправки в браузер json формат
   //{"Voltage0":"3.1111","Voltage1":"3.2222",..."Field0":"1.1111","Field1":"1.2222"}
   json += "\"Temp\":\"";
@@ -79,14 +82,14 @@ void handle_Refresh() {
     json += ",\"Voltage";
     json += i;
     json += "\":\"";
-    json += voltage[i]*100000;
+    json += last_voltage[i]*100000;
     json += "\"";
   }
   for(int i=0; i<121; i++){
     json += ",\"Field";
     json += i;
     json += "\":\"";
-    json += field[i]*100000;
+    json += last_field[i]*100000;
     json += "\"";
   }
   json += "}";

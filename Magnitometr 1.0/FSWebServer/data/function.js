@@ -83,14 +83,17 @@ function downloadFile(type){
 
 // ------------------------------------------------------------------------------------------------------
 
+function SetZero(){
 
-function LedOn(){
-  server = "/Led?status=1";
+}
+
+function SaveSettings(){
+  server = "/Settings?status=1";
   send_request(server);
 }
 
-function LedOff(){
-  server = "/Led?status=0";
+function ResetSettings(){
+  server = "/Settings?status=0";
   send_request(server);
 }
 
