@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "qapplication": "cpp",
+        "qwidget": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "qdialog": "cpp",
+        "qudpsocket": "cpp",
+        "qtwidgets": "cpp"
+    }
+}

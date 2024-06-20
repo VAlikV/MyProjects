@@ -1,0 +1,3 @@
+C:/Users/Valiu/Desktop/C++/MessagerN11/build/CMakeFiles/First_ver.dir
+C:/Users/Valiu/Desktop/C++/MessagerN11/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Valiu/Desktop/C++/MessagerN11/build/CMakeFiles/ZERO_CHECK.dir

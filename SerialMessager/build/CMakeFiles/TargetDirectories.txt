@@ -1,0 +1,3 @@
+C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager.dir
+C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\VALIU\DESKTOP\C++\SERIALMESSAGER\BUILD\CMAKEFILES\5AEEE65436A3F313F2FB60657D4ADD49\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Valiu/Desktop/C++/SerialMessager -BC:/Users/Valiu/Desktop/C++/SerialMessager/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

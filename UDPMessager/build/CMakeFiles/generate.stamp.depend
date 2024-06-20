@@ -1,0 +1,59 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+C:/Users/Valiu/Desktop/C++/MessagerN11/CMakeLists.txt
+C:/Users/Valiu/Desktop/C++/MessagerN11/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
+C:/Users/Valiu/Desktop/C++/MessagerN11/build/CMakeFiles/3.28.3/CMakeRCCompiler.cmake
+C:/Users/Valiu/Desktop/C++/MessagerN11/build/CMakeFiles/3.28.3/CMakeSystem.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5/Qt5Config.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5/Qt5ConfigVersion.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5/Qt5ModuleLocation.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreConfig.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreMacros.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5GuiConfig.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Network/Qt5NetworkConfig.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
+C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake
+C:/VCpkg/vcpkg/scripts/buildsystems/vcpkg.cmake

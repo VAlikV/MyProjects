@@ -1,0 +1,210 @@
+{
+	"BUILD_DIR" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Valiu/Desktop/C++/SerialMessager",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/Valiu/Desktop/C++/SerialMessager/CMakeLists.txt",
+		"C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/3.28.3/CMakeSystem.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake",
+		"C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake",
+		"C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/3.28.3/CMakeRCCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/VCpkg/vcpkg/scripts/buildsystems/vcpkg.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5/Qt5Config.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5/Qt5Config.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeParseArguments.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeParseArguments.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake",
+		"C:/VCpkg/vcpkg/installed/x64-windows/share/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/Valiu/Desktop/C++/SerialMessager",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Valiu/Desktop/C++/SerialMessager/main_window/main_window.hpp",
+			"MU",
+			"TXKPOHTVN7/moc_main_window.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/SerialMessager_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_SERIALPORT_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32"
+	],
+	"MOC_DEFINITIONS_MinSizeRel" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SERIALPORT_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32"
+	],
+	"MOC_DEFINITIONS_RelWithDebInfo" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SERIALPORT_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SERIALPORT_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : [],
+	"MOC_INCLUDES_Debug" : 
+	[
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtWidgets",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtGui",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtCore",
+		"C:/VCpkg/vcpkg/installed/x64-windows/tools/qt5/mkspecs/win32-msvc",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtSerialPort"
+	],
+	"MOC_INCLUDES_MinSizeRel" : 
+	[
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtWidgets",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtGui",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtCore",
+		"C:/VCpkg/vcpkg/installed/x64-windows/tools/qt5/mkspecs/win32-msvc",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtSerialPort"
+	],
+	"MOC_INCLUDES_RelWithDebInfo" : 
+	[
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtWidgets",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtGui",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtCore",
+		"C:/VCpkg/vcpkg/installed/x64-windows/tools/qt5/mkspecs/win32-msvc",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtSerialPort"
+	],
+	"MOC_INCLUDES_Release" : 
+	[
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtWidgets",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtGui",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtCore",
+		"C:/VCpkg/vcpkg/installed/x64-windows/tools/qt5/mkspecs/win32-msvc",
+		"C:/VCpkg/vcpkg/installed/x64-windows/include/qt5/QtSerialPort"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "C:/VCpkg/vcpkg/installed/x64-windows/tools/qt5/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/VCpkg/vcpkg/installed/x64-windows/tools/qt5/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/Valiu/Desktop/C++/SerialMessager/build/CMakeFiles/SerialMessager_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[ "C:/Users/Valiu/Desktop/C++/SerialMessager/main.cpp", "MU", null ],
+		[
+			"C:/Users/Valiu/Desktop/C++/SerialMessager/main_window/main_window.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
