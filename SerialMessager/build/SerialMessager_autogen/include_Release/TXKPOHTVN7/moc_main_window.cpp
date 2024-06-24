@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
     QByteArrayData data[8];
-    char stringdata0[77];
+    char stringdata0[80];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -37,13 +37,14 @@ QT_MOC_LITERAL(1, 11, 12), // "refreshPorts"
 QT_MOC_LITERAL(2, 24, 0), // ""
 QT_MOC_LITERAL(3, 25, 8), // "openPort"
 QT_MOC_LITERAL(4, 34, 9), // "closePort"
-QT_MOC_LITERAL(5, 44, 8), // "setSpeed"
-QT_MOC_LITERAL(6, 53, 9), // "clearText"
-QT_MOC_LITERAL(7, 63, 13) // "serialRecieve"
+QT_MOC_LITERAL(5, 44, 11), // "sendMessage"
+QT_MOC_LITERAL(6, 56, 9), // "clearText"
+QT_MOC_LITERAL(7, 66, 13) // "serialRecieve"
 
     },
     "MainWindow\0refreshPorts\0\0openPort\0"
-    "closePort\0setSpeed\0clearText\0serialRecieve"
+    "closePort\0sendMessage\0clearText\0"
+    "serialRecieve"
 };
 #undef QT_MOC_LITERAL
 
@@ -88,7 +89,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 0: _t->refreshPorts(); break;
         case 1: _t->openPort(); break;
         case 2: _t->closePort(); break;
-        case 3: _t->setSpeed(); break;
+        case 3: _t->sendMessage(); break;
         case 4: _t->clearText(); break;
         case 5: _t->serialRecieve(); break;
         default: ;

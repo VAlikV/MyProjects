@@ -7,7 +7,7 @@ int main(int argc, char **argv){
 
     MainWindow window;
 
-    window.setWindowTitle("Test window");
+    window.setWindowTitle("Serial Messager");
     window.resize(1000,500);
     window.show();
 

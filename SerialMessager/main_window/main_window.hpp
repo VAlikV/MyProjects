@@ -41,7 +41,7 @@ private slots:
     void refreshPorts();
     void openPort();
     void closePort();
-    void setSpeed();
+    void sendMessage();
     void clearText();
     void serialRecieve();
 };

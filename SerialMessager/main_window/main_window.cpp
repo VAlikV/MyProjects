@@ -50,9 +50,29 @@ void MainWindow::layoutSetup()
     flowcontrol_combo_box_->setMaximumWidth(100);
 
     QStringList speed;
-    speed << "300" << "1200" << "2400" << "4800" << "9600" << "19200" << "38400" << "57600" << "74880" << "115200" << "230400" << "250000" << "500000" << "1000000" << "2000000";
+    speed << "300" << "1200" << "2400" << "4800" << "9600" << "19200" << "38400" << "57600" << "74880" << "115200" << "230400" << "250000" << "500000" << "1000000" << "2000000" << "Unknown";
     speed_combo_box_->addItems(speed);
     speed_combo_box_->setCurrentIndex(4);
+
+    QStringList data_bits;
+    data_bits << "5" << "6" << "7" << "8" << "Unknown";
+    data_combo_box_->addItems(data_bits);
+    data_combo_box_->setCurrentIndex(3);
+
+    QStringList parity;
+    parity << "No" << "Even" << "Odd" << "Unknown";
+    parity_combo_box_->addItems(parity);
+    parity_combo_box_->setCurrentIndex(0);
+
+    QStringList stop_bits;
+    stop_bits << "1" << "1.5" << "2" << "Unknown";
+    stopbit_combo_box_->addItems(stop_bits);
+    stopbit_combo_box_->setCurrentIndex(0);
+
+    QStringList flow_control;
+    flow_control << "No" << "Hardware" << "Software" << "Unknown";
+    flowcontrol_combo_box_->addItems(flow_control);
+    flowcontrol_combo_box_->setCurrentIndex(0);
 
     open_port_button_ = new QPushButton("Open");
     open_port_button_->setMaximumWidth(70);
@@ -87,6 +107,7 @@ void MainWindow::layoutSetup()
 
     setup_layout->addWidget(label5,5,0);
     setup_layout->addWidget(flowcontrol_combo_box_,5,1);
+
     QWidget *controlsRestrictorWidget = new QWidget();
     controlsRestrictorWidget->setLayout(setup_layout);
     controlsRestrictorWidget->setFixedWidth(230);
@@ -122,7 +143,7 @@ void MainWindow::connectionSetup()
     connect(refresh_port_button_, SIGNAL(clicked()), this, SLOT(refreshPorts()));
     connect(close_port_button_, SIGNAL(clicked()), this, SLOT(closePort()));
     connect(clear_text_button_, SIGNAL(clicked()), this, SLOT(clearText()));
-    connect(speed_combo_box_, SIGNAL(currentTextChanged()), this, SLOT(setSpeed()));
+    connect(send_button_, SIGNAL(clicked()), this, SLOT(sendMessage()));
 }
 
 // -------------------------------------------------------------- Слоты
@@ -142,12 +163,97 @@ void MainWindow::refreshPorts()
 void MainWindow::openPort()
 {
     if (ports_combo_box_->count() != 0){
+
         serial_->setPortName(ports_combo_box_->currentText());
-        serial_->setBaudRate((speed_combo_box_->currentText()).toUInt());
-        serial_->setDataBits(QSerialPort::Data8);
-        serial_->setParity(QSerialPort::NoParity);
-        serial_->setStopBits(QSerialPort::OneStop);
-        serial_->setFlowControl(QSerialPort::NoFlowControl);
+
+        if (speed_combo_box_->currentText() == "Unknown")
+        {
+            serial_->setBaudRate(QSerialPort::UnknownBaud);
+        }
+        else 
+        {
+            serial_->setBaudRate((speed_combo_box_->currentText()).toUInt());
+        }
+
+        switch(data_combo_box_->currentIndex())
+        {
+            case 0:
+                serial_->setDataBits(QSerialPort::Data5);
+                break;
+            case 1:
+                serial_->setDataBits(QSerialPort::Data6);
+                break;
+            case 2:
+                serial_->setDataBits(QSerialPort::Data7);
+                break;
+            case 3:
+                serial_->setDataBits(QSerialPort::Data8);
+                break;
+            case 4:
+                serial_->setDataBits(QSerialPort::UnknownDataBits);
+                break;
+            default:
+                serial_->setDataBits(QSerialPort::Data8);
+                break;
+        }
+
+        switch(parity_combo_box_->currentIndex())
+        {
+            case 0:
+                serial_->setParity(QSerialPort::NoParity);
+                break;
+            case 1:
+                serial_->setParity(QSerialPort::EvenParity);
+                break;
+            case 2:
+                serial_->setParity(QSerialPort::OddParity);
+                break;
+            case 3:
+                serial_->setParity(QSerialPort::UnknownParity);
+                break;
+            default:
+                serial_->setParity(QSerialPort::NoParity);
+                break;
+        }
+
+        switch(stopbit_combo_box_->currentIndex())
+        {
+            case 0:
+                serial_->setStopBits(QSerialPort::OneStop);
+                break;
+            case 1:
+                serial_->setStopBits(QSerialPort::OneAndHalfStop);
+                break;
+            case 2:
+                serial_->setStopBits(QSerialPort::TwoStop);
+                break;
+            case 3:
+                serial_->setStopBits(QSerialPort::UnknownStopBits);
+                break;
+            default:
+                serial_->setStopBits(QSerialPort::OneStop);
+                break;
+        }
+        
+        switch(flowcontrol_combo_box_->currentIndex())
+        {
+            case 0:
+                serial_->setFlowControl(QSerialPort::NoFlowControl);
+                break;
+            case 1:
+                serial_->setFlowControl(QSerialPort::HardwareControl);
+                break;
+            case 2:
+                serial_->setFlowControl(QSerialPort::SoftwareControl);
+                break;
+            case 3:
+                serial_->setFlowControl(QSerialPort::UnknownFlowControl);
+                break;
+            default:
+                serial_->setFlowControl(QSerialPort::NoFlowControl);
+                break;
+        }
+
         serial_->open(QIODevice::ReadWrite);
         serial_open_flag_ = true;
 
@@ -181,9 +287,12 @@ void MainWindow::closePort()
     }
 }
 
-void MainWindow::setSpeed()
+void MainWindow::sendMessage()
 {
-    serial_->setBaudRate((speed_combo_box_->currentText()).toUInt());
+    if (serial_open_flag_){
+        serial_->write(write_message_->text().toStdString().c_str());
+        serial_->waitForBytesWritten();
+    }
 }
 
 void MainWindow::clearText()
@@ -191,7 +300,8 @@ void MainWindow::clearText()
     messages_->clear();
 }
 
-void MainWindow::serialRecieve(){
+void MainWindow::serialRecieve()
+{
     data = serial_->readAll();
     messages_->insertPlainText(data);
 }
