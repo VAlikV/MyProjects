@@ -135,6 +135,7 @@ void MainWindow::layoutSetup()
     this->setLayout(main_layout);
 
     serial_ = new QSerialPort();
+    send_button_->setEnabled(false);
 }
 
 void MainWindow::connectionSetup()
@@ -265,7 +266,7 @@ void MainWindow::openPort()
         parity_combo_box_->setEnabled(false);
         stopbit_combo_box_->setEnabled(false);
         flowcontrol_combo_box_->setEnabled(false);
-        send_button_->setEnabled(false);
+        send_button_->setEnabled(true);
         open_port_button_->setEnabled(false);
         refresh_port_button_->setEnabled(false);
     }
@@ -281,7 +282,7 @@ void MainWindow::closePort()
         parity_combo_box_->setEnabled(true);
         stopbit_combo_box_->setEnabled(true);
         flowcontrol_combo_box_->setEnabled(true);
-        send_button_->setEnabled(true);
+        send_button_->setEnabled(false);
         open_port_button_->setEnabled(true);
         refresh_port_button_->setEnabled(true);
     }
@@ -291,7 +292,7 @@ void MainWindow::sendMessage()
 {
     if (serial_open_flag_){
         serial_->write(write_message_->text().toStdString().c_str());
-        serial_->waitForBytesWritten();
+        //serial_->waitForBytesWritten();
     }
 }
 
